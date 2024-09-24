@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <center>
+        <h1>Student form</h1>
+    </center>
+    <form>
+
+        <fieldset>
+            <legend>Student form</legend>
+            <label for="Name">Full name</label> <br>
+            <input size="30" type="text" id="Name" name="Name" autofocus> <br> <br>
+            <label for="roll_number">Roll number</label> <br>
+            <input size="30" type="text" id="roll_number" name="roll_number"> <br> <br>
+            <label for="email">Email address</label> <br>
+            <input size="30" type="email" id="email" name="email" required> <br> <br>
+            <label for="date">Date of Birth</label> <br>
+            <input max="2024-01-01" type="date" id="date" name="date"> <br> <br>
+            <label for="gender">Gender</label> <br>
+            <label for="gender">Male</label>
+            <input type="radio" name="gender" id="gender">
+            <label for="gender">Female</label>
+            <input type="radio" name="gender" id="gender"> <br> <br>
+            <label for="Eduction">Eduction</label> <br>
+            <select id="Eduction" name="Eduction">
+                <option value="BE-COMP">BE-COMP</option>
+                <option value="BE-IT">BE-IT</option>
+                <option value="BE-ENTC">BE-ENTC</option>
+                <option value="BE-MECH">BE-MECH</option>
+            </select> <br> <br>
+            <textarea name="message" rows="10" cols="30">
+          personal introduction
+        </textarea> <br> <br>
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <label for="checkbox">All information Correct</label> <br> <br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+
+
+</body>
+
+</html>
