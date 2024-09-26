@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form{
+    width: 50%;
+    
+}
+
+input{}
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    font-weight: bolder;
+}
+label{
+    font-weight: bold;
+}

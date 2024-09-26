@@ -1,0 +1,19 @@
+body{
+    background-color: antiquewhite;
+
+}
+h1{
+    color: brown;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: monospace;
+}
+p{
+    width: 50%;
+    margin-bottom: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+    padding: 3px;
+    font-weight: bold;
+}

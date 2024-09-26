@@ -1,0 +1,41 @@
+body{
+    background-color: blanchedalmond;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header>h1{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    font-size:bolder;
+}
+.First_section{
+    background-color:rgb(166, 211, 196);
+    width: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+    padding: 7px;
+}
+
+.Second_section{
+    width: 50%;
+    background-color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 7px;
+}
+
+#first{
+   background-color:lightgreen;
+
+}
+#first>h2{
+    font-weight: bold;
+
+}
+
+#fouth{
+    background-color: lightgrey;
+}

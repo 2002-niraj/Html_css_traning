@@ -1,0 +1,17 @@
+p {
+    text-align: center;
+    text-align: justify;
+    text-shadow: 2px 2px red;
+    
+}
+h1{ 
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+    text-transform: capitalize;
+
+}
+/* overline, line-through*/
+a{
+    text-decoration: none;
+}
